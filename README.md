@@ -26,6 +26,6 @@ It will log each visited url in stdout and will produce a file with the specifie
 
 Examples:
 
-java -jar WebCrawlerTest.jar http://www.wikipedia.it  *with default options*
+java -jar WebCrawlerTest.jar http://it.wikipedia.org/wiki/Pagina_principale  *with default options*
 
-java -jar WebCrawlerTest.jar http://www.wikipedia.it max_urls=50 ethical=false filename=test.txt *with custom options*
+java -jar WebCrawlerTest.jar http://it.wikipedia.org/wiki/Pagina_principale  max_urls=50 ethical=false filename=test.txt *with custom options*
