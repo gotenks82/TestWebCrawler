@@ -25,5 +25,7 @@ The crawler does not implement a throttle to slow down the number if requests pe
 It will log each visited url in stdout and will produce a file with the specified filename containing the list of valid found links.
 
 Examples:
+
 java -jar WebCrawlerTest.jar http://www.wikipedia.it  *with default options*
+
 java -jar WebCrawlerTest.jar http://www.wikipedia.it max_urls=50 ethical=false filename=test.txt *with custom options*
