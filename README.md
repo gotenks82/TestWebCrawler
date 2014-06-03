@@ -19,9 +19,9 @@ The root_url must start with "http://", the crawler will not visit links with ot
 
 It will extract links from the page content, and for each new valid link it will spawn a worker thread that will visit the link and repeat the process.
 
-The crawler will not specify a user-agent in the request, and will not consider user-agent specific info inside each host's robot.txt, it will simply ignore every disallowed path specify in the robot.txt
+The crawler will not specify a user-agent in the request, and will not consider user-agent specific info inside each host's robot.txt, it will simply ignore every disallowed path specified in the robot.txt
 
-The crawler does not implement a throttle to slow down the number if requests per second.
+The crawler does not implement a throttle to slow down the number of requests per second.
 It will log each visited url in stdout and will produce a file with the specified filename containing the list of valid found links.
 
 Examples:
