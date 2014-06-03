@@ -8,7 +8,7 @@ Syntax: java -jar WebCrawlerTest.jar {root_url} {options}"
 
 Options:
 
-max_urls=n         sets max number of urls
+max_urls=n         sets max number of urls, defaults to 1000 urls
 
 ethical=true/false   sets ethical behaviour, if true the crawler will check robots.txt for allowed paths, defaults to true
 
